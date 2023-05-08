@@ -1,0 +1,59 @@
+body {
+  font-family: century gothic;
+  background-color: rgb(166, 166, 230);
+}
+
+.container {
+  background-color: white;
+  width: 800px;
+  height: 535px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.photo {
+  height: 600px;
+  border-top-left-radius: 10px;
+}
+
+.box-1 {
+  margin: -570px 10px 12px 450px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.text {
+  margin: 0px 10px 12px 450px;
+  font-size: 40px;
+  padding: 5px;
+}
+
+.text-2 {
+  margin: 0 10px 10px 450px;
+
+  font-size: 18px;
+}
+
+.price-2 {
+  margin: 10px 10px 10px 450px;
+  color: rgb(13, 156, 65);
+  font-size: 38px;
+  padding: 10px;
+}
+
+.btn {
+  text-align: center;
+  margin: 15px 50px 5px 500px;
+  background-color: rgb(53, 165, 1);
+  color: #fff;
+  float: right;
+  width: 280px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 24px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color:rgb(8, 116, 8);
+  color: white;
+}

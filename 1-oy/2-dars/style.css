@@ -1,0 +1,69 @@
+body {
+  margin: 20px;
+}
+.container {
+  background-color: aquamarine;
+  border-radius: 5px;
+  border: 5px solid black;
+  height: 700px;
+  padding: 20px;
+}
+.img {
+  padding: 10px 25px;
+  width: 250px;
+}
+.img1{
+    width: 50px;
+    margin: auto 250px;
+}
+
+.nav-span{
+    font-size: 28px;
+    padding: o auto;
+    margin: -240px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.header {
+  font-family: century gothic;
+  text-align: center;
+  font-weight: 800;
+  font-size: 40px;
+  margin: 0 auto;
+}
+.name {
+  font-family: century gothic;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 800;
+}
+.web {
+  width: 300px;
+  height: 500px;
+  background-color: aliceblue;
+  border: 5px solid rgb(0, 255, 0);
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto 10px;
+}
+.lorem{
+    font-family: century gothic; 
+    padding: 5px; 
+
+}
+.btn {
+  background-color: black;
+  color: white;
+  float: right;
+  margin: 10px;
+  width: 80px;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+  color: black;
+}
