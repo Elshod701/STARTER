@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap");
+* {
+  font-family: "Exo 2", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.maket-container {
+  position: relative;
+  max-width: 1280px;
+  height: 4797px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  border: 3px solid red;
+}
+
+.home {
+  position: absolute;
+  width: 1047px;
+  height: 879px;
+  background: #0a0a0b;
+  padding: 0 106px 0 127px;
+}
+/* =========================== HOME_NAVBAR =========================== */
+.nav__logo {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+}
+
+.nav > .nav__list {
+  display: flex;
+  column-gap: 5rem;
+  list-style-type: none;
+}
+
+.nav > .nav__list > .nav__list--item {
+  text-transform: uppercase;
+}
+
+.nav > .nav__list > .nav__list--item:hover:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  transition: all 0.5s ease;
+}
+
+.nav > .nav__list > .nav__list--item > .nav__list--item-link {
+  text-decoration: none;
+  font-weight: 500px;
+  color: white;
+}
+
+.nav > .nav__list > .nav__list--item > .nav__list--item-link:focus {
+  color: blue;
+  transition: 0.5s;
+}
+
+.home-big {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: -198px;
+  top: -50px;
+  background: rgba(55, 74, 109, 0.5);
+  filter: blur(90px);
+}
+
+.home-small {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 961px;
+  top: 202px;
+  background: rgba(55, 74, 109, 0.5);
+  filter: blur(90px);
+}
+
+.g_circle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: 575px;
+  top: 755px;
+  filter: drop-shadow(0px 0px 16px #02db8a);
+}
+.b_circle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 600px;
+  top: 780px;
+}
+
+.circle-text {
+  position: absolute;
+  box-sizing: border-box;
+  width: 42px;
+  height: 20px;
+  left: 609px;
+  top: 785px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 140%;
+  color: #ffffff;
+}
+
+.home-info {
+  position: absolute;
+  width: 406px;
+  height: 104px;
+  left: 437px;
+  top: 597px;
+  gap: 30px;
+}
+
+.info-1 {
+  position: absolute;
+  width: 125px;
+  height: 104px;
+  left: 281px;
+  text-align: center;
+  color: white;
+}
+
+.info-2 {
+  position: absolute;
+  width: 104px;
+  height: 120px;
+  left: 140px;
+  top: -4px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.info-3 {
+  position: absolute;
+  width: 80px;
+  height: 104px;
+  top: 8px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.home-car {
+  position: absolute;
+  width: 380px;
+  height: 222.22px;
+  left: 450px;
+  top: 334px;
+  background: url(./images/tesla.png);
+}
+
+.home-title {
+  width: 100%;
+  text-align: start;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 140%;
+  color: #ffffff;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.home-title-2 {
+  position: absolute;
+  width: 1047px;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #ffffff;
+  margin: 0 auto;
+  top: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home-title-3 {
+  position: absolute;
+  width: 127px;
+  height: 32px;
+  left: 567px;
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
+
+/* ============About============= */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 0px 88px;
+  gap: 10px;
+  position: absolute;
+  width: 1280px;
+  height: 532px;
+  left: calc(50% - 1280px / 2);
+  top: 879px;
+  background: #0a0a0b;
+}
+
+.about-container {
+  width: 1280px;
+  height: 372px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.data-about {
+  position: absolute;
+  width: 401px;
+  height: 278px;
+  left: 723px;
+  margin-top: 30px;
+}
+
+.image-about {
+  position: absolute;
+  width: 480px;
+  height: 372px;
+  left: 155px;
+  margin-top: 0px;
+}
+
+.image-a {
+  position: absolute;
+  width: 480px;
+  height: 320.14px;
+  top: 20px;
+  background: url(./images/car.png);
+  border-radius: 8px;
+}
+.extra-info {
+  position: absolute;
+  width: 197px;
+  height: 104px;
+  left: 284px;
+  top: 268px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+}
+
+.extra-info p {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  width: 160px;
+  padding: 0 20px;
+}
+
+.data-about > .title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  color: #f1f2f3;
+}
+
+.data-about > .text {
+  margin-top: 34px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 140%;
+  color: #babec4;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 14px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 149px;
+  height: 50px;
+  background: #4177dc;
+  border-radius: 4px;
+  margin-top: 16px;
+}
+/* =============Popular================ */
+
+.popular {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 72px 0px 48px;
+  position: absolute;
+  width: 1280px;
+  height: 550px;
+  left: 0px;
+  top: 1500px;
+  background: #0a0a0b;
+}
+
+.popular-container {
+  width: 1280px;
+  height: 516px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: #0a0a0b;
+}
+
+.popular-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  text-align: center;
+  color: #f1f2f3;
+  margin: 0 500px;
+}
+.popular-container > .indicator {
+  position: absolute;
+  width: 38px;
+  height: 8px;
+  left: 620px;
+  top: 508px;
+}
+
+.car1 {
+  position: absolute;
+  width: 258px;
+  height: 328px;
+  left: 812px;
+  top: 175px;
+}
+
+.car2 {
+  position: absolute;
+  width: 258px;
+  height: 328px;
+  left: 512px;
+  top: 175px;
+}
+.car3 {
+  position: absolute;
+  width: 258px;
+  height: 328px;
+  left: 212px;
+  top: 175px;
+}
+
+.feauters {
+  position: absolute;
+  width: 1280px;
+  height: 713px;
+  left: 0px;
+  top: 2047px;
+  background: #8484db;
+}
+.feauters-wrapper {
+  position: absolute;
+  width: 1280px;
+  height: 609px;
+  left: 0px;
+  top: 72px;
+  background-color: lime;
+}
+
+.more {
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 140%;
+  display: flex;
+  text-align: center;
+  color: #f1f2f3;
+  margin-left: 470px;
+  position: absolute;
+  top: -40px;
+}
+
+.wrapper-car {
+  position: absolute;
+  width: 650px;
+  height: 705.42px;
+  left: 325px;
+  top: 120px;
+  transform: rotate(-22.3deg);
+}
+
+.wrapper-car-model {
+  position: absolute;
+  width: 200px;
+  height: 462.53px;
+  left: 240px;
+  top: 48px;
+  transform: rotate(22.3deg);
+  background: url(./images/vista.png);
+}
+
+
