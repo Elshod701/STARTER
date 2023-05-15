@@ -1,0 +1,45 @@
+header {
+  background-color: #e1e4ef20;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  backdrop-filter: blur(30px);
+  
+  .nav {
+    padding: 0 100px;
+    height: 60px;
+
+    &__logo {
+      font-size: 24px;
+      color: #ffffff;
+      text-decoration: none;
+      font-family: "Bruno Ace SC";
+    }
+
+    &__list {
+      display: flex;
+      column-gap: 8rem;
+      color: #ffffff;
+      list-style-type: none;
+      text-decoration: none;
+
+      &--item {
+        list-style-type: none;
+        text-decoration: none;
+
+        &-link {
+          text-decoration: none;
+          text-transform: uppercase;
+          color: #ffffff;
+          font-weight: 700;
+          font-size: 20px;
+          font-family: sans-serif;
+
+          &:hover {
+            color: silver;
+          }
+        }
+      }
+    }
+  }
+}
