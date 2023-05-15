@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooths;
+  font-family: "Poppins", sans-serif;
+}
+
+.s1 {
+  background-image: url(./images/Bitmap.jpg);
+  background-position: center;
+  width: 1440px;
+  height: 815px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 24px 165px;
+}
+
+.text {
+  margin: 97px 166px;
+  width: 616px;
+  height: 412px;
+}
+.text > strong > a {
+  text-decoration: underline;
+  color: #ffd723;
+}
+
+.text > .p1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.text > .h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  color: #ffffff;
+  margin-top: 22px;
+}
+
+.text > .p2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-top: 24px;
+}
+
+.text > .p3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #ffd723;
+  margin-top: 45px;
+}
+
+.s2 {
+    background-color: yellow;
+  margin: 0 165px 154px;
+  width: 1110px;
+  height: 611px;
+}

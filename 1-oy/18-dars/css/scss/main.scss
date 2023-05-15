@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #052aff;
+  width: 100%;
+  .container {
+    padding: 10px 30px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+
+    &__list {
+      list-style-type: none;
+      display: flex;
+      column-gap: 5 rem;
+
+      &--item {
+        list-style-type: none;
+        text-transform: uppercase;
+
+        &-link {
+          list-style-type: none;
+          text-decoration: none;
+          color: #fff;
+
+          &:hover {
+            color: aqua;
+            transition: all 1s ease;
+          }
+        }
+      }
+    }
+  }
+}
